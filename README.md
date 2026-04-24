@@ -1,4 +1,4 @@
-# CS-340
+# CS-340 Journal Reflection
 How do you write programs that are maintainable, readable, and adaptable?
 Throughout this course, I focused on writing code that is modular, consistent, and easy to extend. The CRUD Python module from Project One was central to this approach. By isolating all database authentication and read operations inside a single module, I created a clean separation between the dashboard logic and the MongoDB queries. This meant the dashboard could simply call functions like read() or get_rescue_data() without needing to know anything about connection strings, query syntax, or schema details.
 
